@@ -15,6 +15,7 @@ public class Bin implements Serializable {
 
 	public Bin(String nom) {
 		this.name = nom;
+		System.out.println();
 	}
 
 	public Bin(Point startingPoint) {
